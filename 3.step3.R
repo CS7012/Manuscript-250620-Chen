@@ -74,7 +74,3 @@ foreach(i=dxw, .errorhandling = "pass") %do%{
 }
 }
 write.table(result,"immresult.txt",sep = "\t",quote = F,row.names = F)
-
-
-
-
