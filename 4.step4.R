@@ -90,13 +90,3 @@ if (mr_result$pval[3]<0.05){
 }
 }
 write.table(result,"bc_imc.txt",sep = "\t",quote = F,row.names = F)
-
-
-
-
-
-
-
-
-
-
