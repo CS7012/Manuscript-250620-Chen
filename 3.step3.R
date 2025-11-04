@@ -32,9 +32,6 @@ foreach(i=dxw, .errorhandling = "pass") %do%{
     eaf_col = "effect_allele_frequency",
     pval_col = "p_value")
   
-  
-  
-
   harm_rt <- harmonise_data(
     exposure_dat =  expo_rt, 
     outcome_dat = outc_rt,action=2)
@@ -77,6 +74,7 @@ foreach(i=dxw, .errorhandling = "pass") %do%{
 }
 }
 write.table(result,"immresult.txt",sep = "\t",quote = F,row.names = F)
+
 
 
 
