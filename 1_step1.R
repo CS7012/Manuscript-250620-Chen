@@ -90,11 +90,3 @@ foreach(i=bioid, .errorhandling = "pass") %do%{
   }
 }
 write.table(result,"result.txt",sep = "\t",quote = F,row.names = F)
-
-
-
-
-
-
-
-
